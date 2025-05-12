@@ -15,8 +15,4 @@ This repository contains simple Verilog modules with their corresponding testben
 ## How to Simulate
 
 You can simulate using:
-- **ModelSim**, **Vivado**, or
-- **Icarus Verilog** (CLI):
-```sh
-iverilog mux/mux4x1.v mux/mux4x1_tb.v -o mux_tb
-vvp mux_tb
+- **ModelSim**
