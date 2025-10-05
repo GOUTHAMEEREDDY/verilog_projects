@@ -7,8 +7,8 @@ This repository contains simple Verilog modules with their corresponding testben
 ### 8 bit ALU with 20 operations
 - **alu_core.v** : Implements an 8-bit ALU performing arithmetic, logical, shift, and comparison operations based on a 5-bit choice input.  
 - **flag.v** : Generates zero, negative, and overflow flags for ALU operations.  
-- **alutop.v** : Top-level ALU module connecting `alu_core` and `flag` modules.  
-- **alutb.v** : Testbench to simulate and verify all ALU operations and flags.
+- **alu_top.v** : Top-level ALU module connecting `alu_core` and `flag` modules.  
+- **alu_tb.v** : Testbench to simulate and verify all ALU operations and flags.
   
 ### Multiplexer
 - **mux4x1.v**: 4-to-1 multiplexer
