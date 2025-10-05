@@ -1,4 +1,4 @@
-# Verilog Basics
+# Verilog 
 
 This repository contains simple Verilog modules with their corresponding testbenches for learning and simulation.
 
